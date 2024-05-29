@@ -13,9 +13,11 @@ module.exports = {
         KumbhSans: 'Kumbh Sans',
       },
       backgroundImage: {
-        'Image-bg-pattern-bottom': "url('/images/bg-pattern-bottom.svg')",
-        'Image-bg-pattern-top': "url('/images/bg-pattern-top.svg')",
+        'Image-body': "url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg')",
         'Image-pattern-card': "url('/images/bg-pattern-card.svg')",
+      },
+      backgroundPosition: {
+        'Image-position': 'right 52vw bottom 41vh, left 50vw top 50vh',
       },
     },
   },
